@@ -13,8 +13,6 @@ public class MunicipioService {
 
     MunicipioRepository municipioRepository;
 
-    /*commit*/
-
     @Transactional
     public MunicipioModel salvar(MunicipioModel municipio) {
 
